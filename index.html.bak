@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <meta name="Programer" content="width=device-width, initial-scale=1">
+    <title>Programer No.1 เทพมือฉมัง</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 
       rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -90,6 +90,29 @@
                   &nbsp; <br>
                 </div>
               </div>
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active"> <img src="C:%5CUsers%5CAsus%5COneDrive%5C%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%5CMilk%5Cimages%5C%E0%B8%99%E0%B8%A1%E0%B8%9B.jpg"
+
+                      class="d-block w-100" alt="นปม"> </div>
+                  <div class="carousel-item"> <img src="C:%5CUsers%5CAsus%5COneDrive%5C%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%5CMilk%5Cimages%5C%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99.jpg"
+
+                      class="d-block w-100" alt="เพื่อน"> </div>
+                  <div class="carousel-item"> <img src="C:%5CUsers%5CAsus%5COneDrive%5C%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%5CMilk%5Cimages%5C%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%81%E0%B8%81.jpg"
+
+                      class="d-block w-100" alt="เอก"> </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+
+                  data-bs-slide="prev"> <span class="carousel-control-prev-icon"
+
+                    aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+                </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+
+                  data-bs-slide="next"> <span class="carousel-control-next-icon"
+
+                    aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+                </button> </div>
               <div class="card-body p-4 text-black">
                 <div class="mb-5">
                   <p class="lead fw-normal mb-1"> </p>
@@ -99,35 +122,21 @@
                         id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
 
                         type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-
-                          fill="currentColor" class="bi bi-person-badge-fill" viewBox="0 0 16 16">
-                          <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"></path>
-                        </svg> About Me</button> </li>
+                        About Me</button> </li>
                     <li class="nav-item" role="presentation"> <button class="nav-link"
 
                         id="Education-tab" data-bs-toggle="tab" data-bs-target="#Education-tab-pane"
 
                         type="button" role="tab" aria-controls="Education-tab-pane"
 
-                        aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg"
-
-                          width="16" height="16" fill="currentColor" class="bi bi-journal-bookmark-fill"
-
-                          viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8V1z"></path>
-                          <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"></path>
-                          <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"></path>
-                        </svg> Education</button> </li>
+                        aria-selected="false"> Education</button> </li>
                     <li class="nav-item" role="presentation"> <button class="nav-link"
 
                         id="Skills-tab" data-bs-toggle="tab" data-bs-target="#Skills-tab-pane"
 
                         type="button" role="tab" aria-controls="Skills-tab-pane"
 
-                        aria-selected="false"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16">
-  <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
-</svg> Skills </button> </li>
+                        aria-selected="false"> Skills </button> </li>
                   </ul>
                   <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
